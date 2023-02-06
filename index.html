@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portpolio</title>
+    <script src="https://kit.fontawesome.com/1678ca0567.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="sticky-top">
+<nav class="navbar bg-secondary justify-content-between text-dark">
+    <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1"><img src="images/pflogo.png"></span>
+        <div class="nav text-dark">
+            <li class="nav"><a href="#">Home</a></li>
+            <li class="nav"><a href="#about">About</a></li>
+            <li class="nav"><a href="#skill">Skill</a></li>
+			<li class="nav"><a href="#projects">Projects</a></li>
+            <li class="nav"><a href="#contacts">Contacts</a></li>
+        </div>
+    </div>
+</nav>
+</header>
+<div class="container-fluid">
+    <section class="col home">
+        <div>
+            Hi, I`m John Anthony Torzar
+        </div>
+        <div>
+            An Aspiring Web Developer from Caloocan City
+        </div>
+    </section>
+    <section class="col about" id="about">
+        <div>
+            <h1>ABOUT</h1>
+        </div>
+        <div class="about-contents">
+            <div class="about-img">
+                <img src="images/rsz_1122135688_10208234667023196_5541174037349366390_o.jpg">
+            </div>
+            <div class="about-info">
+                <div>
+                    <p>Since I was a child, programming has been my passion. I was an information technology student in 2015, but I left the industry for a variety of reasons. When I learned about KodeGO, I jumped at the chance to pursue my passion while also improving my web development skills. As a KodeGO alumni, I learned a variety of programming languages such as PHP, JavaScript, CSS, and HTML. I am constantly looking for new opportunities in the field of modern technology and strive to be innovative.</p>
+                </div>
+                <div class="h3">
+                    <p>Educational Background</p>
+                </div>
+                <div class="d-flex flex-row justify-content-between h5">    
+                    <div class="mt-3">
+                        AMA College Caloocan
+                    </div>
+                    <div> 
+                        2011-2013
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-between h5">    
+                    <div class="mt-3">
+                        Caloocan High School
+                    </div>
+                    <div> 
+                        2006-2010
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="col skill" id="skill">
+        <div>
+            <h1>SKILL</h1>
+        </div>
+        <div class="skill-content">
+        <div class="skill-l-content">
+		<div>
+            HTML
+            <i class="fa-brands fa-html5"></i>
+        </div>
+        <div>
+            CSS
+            <i class="fa-brands fa-css3"></i>
+        </div>
+        <div>
+            Bootstrap
+            <i class="fa-brands fa-bootstrap"></i>
+        </div>
+		</div>
+		<div class="skill-r-content">
+		<div>
+            Laravel
+            <i class="fa-brands fa-laravel"></i>
+        </div>
+		<div>
+			React
+			<i class="fa-brands fa-react"></i>
+		</div>
+		<div>
+			Node.js
+			<i class="fa-brands fa-node"></i>
+		</div>
+        </div>
+		</div>
+    </section>
+	<section class="col projects" id="projects">
+		<div>
+			<h1>Projects</h1>
+		</div>
+	<div>
+	</div>
+	<div>
+	</div>
+	</section>
+
+    <section class="col contacts" id="contacts">
+        <div>
+            <h1>CONTACTS</h1>
+        </div>
+        <div class="contacts-container">
+            <div class="contacts-content1">
+                <div>
+                    <i class="fa-solid fa-square-phone mb-3"></i>
+                    <span>+63 9151989368</span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-square-envelope mb-3"></i>
+                    <span>johnanthony1104@gmail.com</span>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/zeynamethyst">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                    <a href="https://twitter.com/AnthonyTorzar">
+                    <i class="fa-brands fa-square-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/j.a010114/">
+                    <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                    <a href="https://github.com/zachaiden01">
+                    <i class="fa-brands fa-square-github"></i>
+                    </a>
+					<a href="https://www.linkedin.com/in/john-anthony-torzar-a763b6263/">
+                    <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="contacts-content2">
+
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingName" placeholder="Name">
+                    <label for="floatingName">Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">Send us Feedback here!!!</label>
+                </div>
+                <div class="form-floating">
+                    <input type="button" value="Send" class="contacts-btn">
+                </div>
+            </div>
+        </div>
+    </section>
+	<button type="button" class="btn btn-secondary btn-floating btn-dark" id="btn-back-to-top">
+		<i class="fas fa-arrow-up" id="progress-bar"></i>
+	</button>
+	<script src="js/script.js"></script>
+</div>
+    <footer class="bg-dark text-light text-center">
+            <div>
+                John Anthony Torzar
+            </div>
+            <div>
+                Copyright ©2022
+            </div>
+    </footer>
+</body>
+</html>
